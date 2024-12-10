@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Cash Memo Container */
+.cash-memo {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+}
+
+/* Header */
+.memo-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.memo-header h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0;
+}
+
+/* Content Rows */
+.memo-content {
+    color: #555;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.row span {
+    font-size: 1em;
+}
+
+/* Total Row */
+.total {
+    font-weight: bold;
+    color: #000;
+    font-size: 1.2em;
+}
+
+/* Divider */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
